@@ -4,3 +4,13 @@ langchain-community
 pypdf
 pymupdf
 ipykernel
+
+# For document loading, you can install the following libraries based on your requirements. You don't need to install all of them, just the ones that are relevant to the file types you want to load.
+docx2txt # for docx file loading in Docx2txtLoader
+unstructured # for unstructured file loading in UnstructuredFileLoader or UnstructuredWordDocumentLoader or UnstructuredExcelLoader
+python-docx # for docx file loading in PythonDocxLoader
+
+# For excel file loading, you can install the following library:
+openpyxl # for excel file loading in OpenPyXLLoader
+pandas # for excel file loading in PandasExcelLoader
+networkx
