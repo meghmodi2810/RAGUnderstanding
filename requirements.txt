@@ -1,3 +1,4 @@
+# All mandatory dependencies for the project are listed below. You can install them using pip:
 langchain
 langchain-core
 langchain-community
@@ -14,3 +15,12 @@ python-docx # for docx file loading in PythonDocxLoader
 openpyxl # for excel file loading in OpenPyXLLoader
 pandas # for excel file loading in PandasExcelLoader
 networkx
+
+# For embedding models, you can install the following libraries based on your requirements. You don't need to install all of them, just the ones that are relevant to the embedding models you want to use.
+sentence-transformers # for SentenceTransformer embedding models
+openai # for OpenAI embedding models
+
+# For vector stores, you can install the following libraries based on your requirements. You don't need to install all of them, just the ones that are relevant to the vector stores you want to use.
+faiss-cpu # for FAISS vector store
+chromadb # for Chroma vector store
+pinecone-client # for Pinecone vector store
