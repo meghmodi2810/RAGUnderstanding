@@ -24,3 +24,8 @@ openai # for OpenAI embedding models
 faiss-cpu # for FAISS vector store
 chromadb # for Chroma vector store
 pinecone-client # for Pinecone vector store
+
+# For LLMs, you can install the following libraries based on your requirements. You don't need to install all of them, just the ones that are relevant to the LLMs you want to use.
+openai # for OpenAI LLMs
+langchain-groq # for GROQ LLMs
+python-dotenv # for loading environment variables from .env file
